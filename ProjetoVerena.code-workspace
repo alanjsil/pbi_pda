@@ -11,27 +11,10 @@
     // =========================================================
 
     "files.exclude": {
-      //Pastas
-      // "build": true,
-      // ".github": true,
       //  Arquivos
-      // ".env": true,
       ".gitignore": true,
       "opencode.json": true,
       ".gitattributes": true,
-      // "package-lock.json": true,
-      // Arquivos de configuração
-      // "vitest.config.js": true,
-      // "eslint.config.mjs": true,
-      // "vitest.config.integrado.js": true,
-      // Documentos
-      // "README.md": false,
-      // "LICENSE.md": true,
-      // "CHANGELOG.md": false,
-      // "CODE_OF_CONDUCT.md": true,
-      // "THIRD-PARTY-NOTICES.md": true,
-      // "AGENTS.md": true,
-      // "node_modules": true,
     },
 
     // =========================================================
@@ -204,6 +187,7 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true,
       "diffEditor.ignoreTrimWhitespace": true,
+      "files.trimTrailingWhitespace": false,
     },
 
     // =========================================================
@@ -213,6 +197,10 @@
       "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc",
       "editor.formatOnSave": true,
     },
+
+    // =========================================================
+    // XML
+    // =========================================================
     "[xml]": {
       "editor.defaultFormatter": "redhat.vscode-xml",
     },

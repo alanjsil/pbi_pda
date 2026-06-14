@@ -2,6 +2,7 @@
 title: Manual do Analista PDA
 subtitle: Sistema de Perfil Comportamental PDA
 version: 3.0
+revisão: Revisado até a página 16 do manual linha 388 do arquivo
 language: pt-BR
 description: Manual completo para Analistas PDA baseado na teoria de William M. Marston
 keywords: [PDA, perfil comportamental, Marston, DISC, análise comportamental, REPNA]
@@ -15,21 +16,21 @@ keywords: [PDA, perfil comportamental, Marston, DISC, análise comportamental, R
 | 2        | W. MARSTON - FUNDAMENTAÇÃO TEÓRICA                                                | 5      |
 | 3        | MODELO PDA                                                                        | 11     |
 | 4        | EIXOS COMPORTAMENTAIS: PRINCIPAIS DESCRITORES E MOTIVADORES                       | 16     |
-| 5        | INDICADOR DE INTENSIDADE DO EIXO (**IE**)                                             | 27     |
+| 5        | INDICADOR DE INTENSIDADE DO EIXO (**IE**)                                         | 27     |
 | 6        | INTERPRETAÇÃO DOS EIXOS COMBINADOS: LINHAS DE INTERPRETAÇÃO E EIXOS PREDOMINANTES | 31     |
-| 7        | INDICADOR DE TOMADA DE DECISÕES (**TD**)                                              | 37     |
-| 8        | INDICADOR DE INTENSIDADE DO PERFIL (**IP**)                                           | 39     |
-| 9        | INDICADOR DE NÍVEL DE ENERGIA (**NE**)                                                | 42     |
-| 10       | INDICADOR DE EQUILÍBRIO DE ENERGIA (**EE**)                                           | 44     |
-| 11       | MODIFICAÇÃO DO PERFIL (**MP**)                                                        | 46     |
+| 7        | INDICADOR DE TOMADA DE DECISÕES (**TD**)                                          | 37     |
+| 8        | INDICADOR DE INTENSIDADE DO PERFIL (**IP**)                                       | 39     |
+| 9        | INDICADOR DE NÍVEL DE ENERGIA (**NE**)                                            | 42     |
+| 10       | INDICADOR DE EQUILÍBRIO DE ENERGIA (**EE**)                                       | 44     |
+| 11       | MODIFICAÇÃO DO PERFIL (**MP**)                                                    | 46     |
 | 12       | MUDANÇAS DE PERFIL NATURAL PARA PERFIL ADAPTADO                                   | 48     |
-| 13       | INDICADOR TEMPO DO FORMULÁRIO (**TF**)                                                | 50     |
+| 13       | INDICADOR TEMPO DO FORMULÁRIO (**TF**)                                            | 50     |
 | 14       | INDICADOR DE CONSISTÊNCIA                                                         | 51     |
 | 15       | DEVOLUTIVAS PDA                                                                   | 55     |
 | 16       | GUIA PARA A INTERPRETAÇÃO PDA                                                     | 61     |
 | —        | ANEXO I – PERFIS DE REFERÊNCIA                                                    | 63     |
 
-## 1. INTRODUÇÃO
+# 1. INTRODUÇÃO
 
 O Sistema **PDA** é uma ferramenta fundamentada na “Teoria da Personalidade” de William M. Marston, descrita no seu livro “Emotions of Normal People” (1928) e que foi
 especificamente desenvolvida para analisar o Perfil Comportamental das Pessoas e o seu potencial.
@@ -40,7 +41,7 @@ Os tipos de comportamento que podem ser observados e classificados são aspectos
 
 Quando a medição está centrada nos aspectos superficiais da personalidade, é suficiente
 estabelecer consenso sobre esses aspectos e medi-los adequadamente. Porém, quando
- a medição é centrada nos aspectos nucleares da personalidade, deve-se fazer uma
+a medição é centrada nos aspectos nucleares da personalidade, deve-se fazer uma
 investigação profunda, e recolher uma quantidade de informação significativa para a
 suportar. Contudo, existe sempre a possibilidade que a validade dessa informação não
 seja suficiente para a justificar.
@@ -71,16 +72,16 @@ Este manual, foi desenvolvido especificamente para os Analistas PDA, no sentido 
 conseguir uma aplicação bem -sucedida na interpretação da informação que a
 metodologia oferece, tanto para a análise de uma pessoa como para a análise de grupos.
 
-## 2. WILLIAM M. MARSTON - FUNDAMENTAÇÃO TEÓRICA
+# 2. WILLIAM M. MARSTON - FUNDAMENTAÇÃO TEÓRICA
 
-### VIDA E CARREIRA
+## VIDA E CARREIRA
 
 Nasceu em Saugus, Massachussets , EUA. Completou os seus estudos na Universidade de
 Harvard, em 1921 como PhD em Psicologia. Trabalhou como professor na American University,
 em Washington D.C. e na Tufts University em Medford, Massachussets. Trabalhou também na
 Universal Studios, Califórnia, como Diretor de Serviços Públicos.
 
-#### Psicólogo e inventor
+### Psicólogo e inventor
 
 Muitas invenções de conhecimento público são atribuídas a Marston, como por exemplo, o
 “polígrafo”, também chamado detector de mentiras (1920) , cujo método foi a medição da
@@ -90,7 +91,7 @@ crível do que o homem, e pode trabalhar mais rápido e mais efetivamente por lo
 Para o desenvolvimento da metodologia, Marston fundamenta-se basicamente nas
 seguintes teorias e conceitos:
 
-1. A estrutura da personalidade de Marston
+## 1. A estrutura da personalidade de Marston
 
 Fundamentada na sua teoria de “Emotions of Normal People” (1928). Nesta teoria Marston define que o comportamento humano pode descrever-se analisando dois eixos fundamentais: resposta proativa ou reativa dos indivíduos. Ele explica que a resposta do indivíduo aos estímulos do meio depende da forma “como este indivíduo tende a perceber o ambiente”: percepção do ambiente favorável ou desfavorável, gerando quatro que representam as quatro áreas do comportamento.
 
@@ -121,31 +122,30 @@ centro da esfera. Cada vetor representa um dos quatro estilos comportamentais de
 conforme figura abaixo:
 
 ```text
-                  ┌──────────────┐
-                  │ Pró-atividade│
-                  └──────┬───────┘
-                         │
-                         │
-            D            │                I
-        Dominância       │            Influência
-                         │
-                         ▼
-┌─────────┐          ┌─────────┐              ┌─────────┐
-│ Tarefas │◄────────►│ ENERGIA │◄────────────►│ Pessoas │
-└─────────┘          └─────────┘              └─────────┘
+                  ┌───────────────┐
+                  │ Pró-atividade │
+                  └───────┬───────┘
+                          │
+                D         │         I
+           Dominância     │     Influência
+                          │
+                          ▼
+┌─────────┐          ┌─────────┐          ┌─────────┐
+│ Tarefas │◄────────►│ ENERGIA │◄────────►│ Pessoas │
+└─────────┘          └─────────┘          └─────────┘
                           ▲
                           │
-            C             │                  S
-      Conformidade        │            Estabilidade
+                C         │         S
+         Conformidade     │     Estabilidade
                           │
-                    ┌─────┴───────┐
-                    │Receptividade│
-                    └─────────────┘
+                   ┌──────┴──────┐
+                   │Receptividade│
+                   └─────────────┘
 ```
 
 Anos depois acrescenta o conceito de Autocontrole como 5º eixo (Restrição Consciente) , que permite identificar se a pessoa tem uma tendência a considerar mais a razão ou a emoção em suas ações e seu comportamento . Este eixo atua influenciando/incidindo sobre os outros quatro.
 
-## Descrição específica dos cinco Eixos:
+### Descrição específica dos cinco Eixos:
 
 Eixo 1 (Dominância): resposta proativa num ambiente percebido como antagônico ou
 desfavorável. mede o nível de iniciativa e motivação por situações que impliquem algum grau de risco para alcançar resultados.
@@ -166,115 +166,137 @@ de energia de atividade que proporciona a força motivacional para os comportame
 Energia é um conceito similar ao de energia psíquica do modelo freudiano que representa a
 força que dá poder tanto à atividade física como à atividade intelectual.
 
-2. Teoria do Autoconceito (Prescott Lecky):
-   Baseia-se na ideia de que o ser humano entre os 15 e 18 anos desenvolve uma percepção de
-   si próprio relativamente estável como resultado da sua experiência. A pessoa desenvolve
-   também uma expectativa do que o ambiente solicita dela.
-   Marston considera que o comportamento individual é determinado, em parte, pela interação
-   entre o autoconceito e os ajustes às necessidades do ambiente , conforme a percepção do
-   indivíduo.
+## 2. Teoria do Autoconceito (Prescott Lecky):
 
-3. Teoria da Autoconsistência:
-   Define que as pessoas tendem a aceitar e a assimilar as ideias e/ou conceitos consistentes
-    com a forma como se percebem, e têm a tendência a negar e rejeitar aquelas ideias e/ou
-   conceitos inconsistentes com essa percepção, definindo-se assim as seguintes bases:
-   - A mente é uma unidade, um sistema organizado de ideias.
-   - Todas as ideias que pertencem a este sistema devem ser coerentes entre si.
-   - O centro ou núcleo da mente é a noção de si mesmo: o Autoconceito.
+Baseia-se na ideia de que o ser humano entre os 15 e 18 anos desenvolve uma percepção de
+si próprio relativamente estável como resultado da sua experiência. A pessoa desenvolve
+também uma expectativa do que o ambiente solicita dela.
+Marston considera que o comportamento individual é determinado, em parte, pela interação
+entre o autoconceito e os ajustes às necessidades do ambiente , conforme a percepção do
+indivíduo.
 
-4. Teoria da Percepção:
-   Um nome para a forma como individualizamos e interpretamos o mundo que nos rodeia.
-   - A atenção seletiva aos estímulos.
-   - A organização dos estímulos.
-   - A interpretação das experiências de forma a que tenham sentido para o indivíduo.
+## 3. Teoria da Autoconsistência:
 
-5. Estudo de Semântica:
-   - Estudo da linguagem e do uso das palavras.
-   - Usa descrições não abstratas e de comportamentos explícitos.
-   - Estudaram-se as propriedades de 3000 palavras.
-   - Reduziu-se a amostra a 86 palavras nucleares ou chave.
-     A interpretação que cada pessoa dá a cada uma das palavras será de acordo como a percebe,
-     visto que cada pessoa percebe de forma diferente em função do seu perfil comportamental.
-     É como dizer que de acordo com o seu Estilo Natural, cada pessoa dará conotações positivas
-     ou negativas diferentes em cada caso.
-     Marston nunca registrou os direitos da metodologia de avaliação de perfis em função de seus
-     estudos se concentrarem expressamente na área da pesquisa do comportamento humano.
-     Contudo, logo a partir desse momento começaram a surgir diferentes ferramentas de
-     avaliação fundamentadas nos seus conceitos. Estas ferramentas desenvolveram-se com
-      atenção às vantagens e benefícios desta metodologia, tanto na área militar quanto no
-     ambiente empresarial. As ferramentas que surgem nessa primeira fase são as chamadas
-     “puras”, já que seguiam "à letra" a teoria de Marston.
-     A realidade demonstrava os enormes resultados que estas ferramen tas ofereciam pela
-     quantidade e qualidade de informação, mas operacionalmente o processo matemático
-     realizado pelos Analistas até os resultados serem obtidos para permitir uma interpretação
-      confiável era muito lento e complexo. Nessa época, depois que o avaliado terminava de
-     preencher o formulário, um Analista Certificado demorava cerca de uma hora e meia para
-     obter os resultados.
-     No final da década de 60, o Dr. John Geier, da Universidade de Minnesota realizou estudos
-      sobre o modelo de Marston. O seu estudo centrou-se na ideia de reduzir o tempo que os
-     analistas tinham de gastar, simplificando o processo matemático para tornar a ferramenta
-     mais simples e aplicável. Enquanto simplificação e síntese do modelo de Marston, John Geier
-      desenvolve a metodologia hoje conhecida por DISC, que fica longe de ser o modelo original
-     puro.
-     A base da mudança que Geier realizou foi a modificação do Formulário. A partir desta
-     mudança, o tempo entre o formulário completado pelo avaliado e os resultados para
-     interpretar encurtou-se sensivelmente e o processo simplificou-se. Porém, a realidade é que
-     se perdeu muita informação de enorme valor para a interpretação, como a Intensidade dos
+Define que as pessoas tendem a aceitar e a assimilar as ideias e/ou conceitos consistentes
+com a forma como se percebem, e têm a tendência a negar e rejeitar aquelas ideias e/ou
+conceitos inconsistentes com essa percepção, definindo-se assim as seguintes bases:
+
+- A mente é uma unidade, um sistema organizado de ideias.
+- Todas as ideias que pertencem a este sistema devem ser coerentes entre si.
+- O centro ou núcleo da mente é a noção de si mesmo: o Autoconceito.
+
+## 4. Teoria da Percepção:
+
+Um nome para a forma como individualizamos e interpretamos o mundo que nos rodeia.
+
+- A atenção seletiva aos estímulos.
+- A organização dos estímulos.
+- A interpretação das experiências de forma a que tenham sentido para o indivíduo.
+
+## 5. Estudo de Semântica:
+
+- Estudo da linguagem e do uso das palavras.
+- Usa descrições não abstratas e de comportamentos explícitos.
+- Estudaram-se as propriedades de 3000 palavras.
+- Reduziu-se a amostra a 86 palavras nucleares ou chave.
+
+A interpretação que cada pessoa dá a cada uma das palavras será de acordo como a percebe,
+visto que cada pessoa percebe de forma diferente em função do seu perfil comportamental.
+É como dizer que de acordo com o seu Estilo Natural, cada pessoa dará conotações positivas
+ou negativas diferentes em cada caso.
+
+Marston nunca registrou os direitos da metodologia de avaliação de perfis em função de seus
+estudos se concentrarem expressamente na área da pesquisa do comportamento humano.
+Contudo, logo a partir desse momento começaram a surgir diferentes ferramentas de
+avaliação fundamentadas nos seus conceitos. Estas ferramentas desenvolveram-se com
+atenção às vantagens e benefícios desta metodologia, tanto na área militar quanto no
+ambiente empresarial. As ferramentas que surgem nessa primeira fase são as chamadas
+“puras”, já que seguiam "à letra" a teoria de Marston.
+
+A realidade demonstrava os enormes resultados que estas ferramen tas ofereciam pela
+quantidade e qualidade de informação, mas operacionalmente o processo matemático
+realizado pelos Analistas até os resultados serem obtidos para permitir uma interpretação
+confiável era muito lento e complexo. Nessa época, depois que o avaliado terminava de
+preencher o formulário, um Analista Certificado demorava cerca de uma hora e meia para
+obter os resultados.
+
+No final da década de 60, o Dr. John Geier, da Universidade de Minnesota realizou estudos
+sobre o modelo de Marston. O seu estudo centrou-se na ideia de reduzir o tempo que os
+analistas tinham de gastar, simplificando o processo matemático para tornar a ferramenta
+mais simples e aplicável. Enquanto simplificação e síntese do modelo de Marston, John Geier
+desenvolve a metodologia hoje conhecida por DISC, que fica longe de ser o modelo original
+puro.
+
+A base da mudança que Geier realizou foi a modificação do Formulário. A partir desta
+mudança, o tempo entre o formulário completado pelo avaliado e os resultados para
+interpretar encurtou-se sensivelmente e o processo simplificou-se. Porém, a realidade é que
+se perdeu muita informação de enorme valor para a interpretação, como a Intensidade dos
 
 Eixos, o nível de Energia e o Eixo do Autocontrole na sua totalidade. Também se modificou o
 modelo, substituindo “Submissão” por “Estabilidade” e “Complacência” por “Conformidade”,
 nascendo assim o atual modelo DISC.
+
 A partir da década de 90, com o avanço da tecnologia, computadores e sistemas , tornou-se
 possível automatizar o processo de preenchimento do formulário e emissão de gráficos e
 relatórios, tornando possível a retomada da metodologia “pura” de Marston, cujos benefícios
 vão além das simplificações do modelo DISC.
 
-## 3. MODELO PDA
+# 3. MODELO PDA
 
 O modelo PDA originou-se a partir dessa possibilidade de retomar a metodologia original de
 Marston. A nomenclatura dos eixos foi modificada para facilitar a diferenciação entre esta
 metodologia e os modelos simplificados do DISC.
+
 Os eixos comportamentais são, portanto, as cinco categorias do comportamento que o PDA
 avalia, e que dentro do modelo PDA passaram a ter a seguinte denominação:
-| Marston (DISC) | PDA |
-|---|---|
-| Dominância | Risco |
-| Influência | Extroversão |
-| Estabilidade | Paciência |
-| Conformidade | Normas |
-| Restrição Consciente | Autocontrole |
+
+Dominância = Risco<br>
+Influência = Extroversão<br>
+Estabilidade = Paciência<br>
+Conformidade = Normas<br>
+Restrição Consciente = Autocontrole<br>
 
 O eixo do Autocontrole, ausente nas metodologias DISC simplificadas, foi retomado e
 representa um diferencial da avaliação PDA.
 
-Características dos Eixos e tendências comportamentais:
-Para cada um dos eixos existirá uma tendência comportamental que poderá ser
-identificada como: alta, situacional ou baixa. As tendências são definidas conforme a
-pontuação na linha de perfil, sendo:
+![Gráfico de Perfil Comportamental](./img/img_01.jpg)
+
+```text
+                  ┌───────────────┐
+                  │ Pró-atividade │
+                  └───────┬───────┘
+                          │
+              EIXO DO     │     EIXO DA
+              RISCO       │     EXTROVERSÃO
+                          ▼
+┌─────────┐          ┌─────────┐          ┌─────────┐
+│ Tarefas │◄────────►│ ENERGIA │◄────────►│ Pessoas │
+└─────────┘          └─────────┘          └─────────┘
+                          ▲
+              EIXO DAS    │     EIXO DA
+              NORMAS      │     PACIÊNCIA
+                          │
+                   ┌──────┴──────┐
+                   │Receptividade│
+                   └─────────────┘
+EMOÇÃO ◄──────────────────────────────────────► RAZÃO
+```
+
+## Características dos Eixos e tendências comportamentais:
+
+Para cada um dos eixos existirá uma tendência comportamental que poderá seridentificada como: alta, situacional ou baixa. As Tendências são definidas conforme a pontuação na linha de perfil, sendo:
 
 - de 0 a 33: tendência BAIXA
 - de 34 a 66: tendência SITUACIONAL
 - de 67 a 100: tendência ALTA
 
-Abaixo constam os elementos matemáticos que compõem a construção de um Perfil
-Comportamental. Assim, devem ser atendidos os seguintes requisitos:
+Abaixo constam os elementos matemáticos que compõem a construção de um Perfil Comportamental. Assim, devem ser atendidos os seguintes requisitos:
 
 - Os valores de cada eixo, conforme a linha de perfil, vão de 0 a 100.
 - A soma dos quatro primeiros Eixos (Risco - Extroversão - Paciência - Normas) totaliza 200.
-- Deve existir pelo menos um 0 e/ou um 100, para destacar a tendência
-  comportamental.
+- Deve existir pelo menos um 0 e/ou um 100, para destacar a tendência comportamental.
 
 Veja exemplo abaixo:
-
-Relatório PDA
-
-O Relatório PDA é uma descrição do perfil comportamental de cada pessoa. Oferece
-informação clara e assertiva sobre suas tendências naturais de comportamento e
-principais motivadores.
-
-O Relatório PDA inclui, também, diferentes tipos de gráficos que nos permitem observar
-com maior clareza a distribuição da energia da pessoa na Matriz PDA, competências
-comportamentais naturais e estilo comportamental predominante.
 
 | Eixo         | Pontuação | Tendência   |
 | ------------ | --------- | ----------- |
@@ -284,25 +306,28 @@ comportamentais naturais e estilo comportamental predominante.
 | Normas       | 0         | Baixa       |
 | Autocontrole | 63        | Situacional |
 
-Gráfico Circular PDA
-Gráfico Comportamental Radar
+## Relatório PDA
 
-Gráfico do Perfil Comportamental – Perfil Natural e Perfil Adaptado
+O Relatório PDA é uma descrição do perfil comportamental de cada pessoa. Oferece informação clara e assertiva sobre suas tendências naturais de comportamento e principais motivadores.
 
-Perfil Natural:
-Comportamento
-espontâneo e natural, que
-não exige esforço
-Perfil Adaptado:
-Como a pessoa está se
-comportando no momento
-atual para corresponder às
-demandas do ambiente,
-conforme sua percepção.
+O Relatório PDA inclui, também, diferentes tipos de gráficos que nos permitem observar com maior clareza a distribuição da energia da pessoa na Matriz PDA, competências comportamentais naturais e estilo comportamental predominante.
 
-## 4. EIXOS COMPORTAMENTAIS: PRINCIPAIS DESCRITORES E MOTIVADORES
+**Gráfico Circular PDA**</br>
+![Grafico Circular PDA](./img/img_02.png)
 
-### 4.1 Eixo do Risco (R)
+**Gráfico Comportamental Radar**</br>
+![Grafico Comportamental Radar](./img/img_03.png)
+
+**Gráfico do Perfil Comportamental – Perfil Natural e Perfil Adaptado**
+
+_Perfil Natural_: Comportamento espontâneo e natural, que não exige esforço.</br>
+_Perfil Adaptado_: Como a pessoa está se comportando no momento atual para corresponder às demandas do ambiente, conforme sua percepção.
+
+# 4. EIXOS COMPORTAMENTAIS:
+
+## PRINCIPAIS DESCRITORES E MOTIVADORES
+
+## 4.1 Eixo do Risco (R)
 
 Descrição e o que mede:
 O Eixo do Risco representa a resposta proativa em um ambiente percebido como antagônico
@@ -1089,7 +1114,7 @@ que contribuam para o desenvolvimento do avaliado.
 ### 15.2 Orientações gerais
 
 - O envio do relatório PDA para o avaliado deve acontecer após a devolutiva, para
-   permitir que o avaliado esteja aberto e concentrado em sua condução e
+  permitir que o avaliado esteja aberto e concentrado em sua condução e
   acomodação de conceitos durante a devolutiva. Leituras prévias podem gerar
   resistências desnecessárias.
 - É indicada a duração de 1 hora para a devolutiva.
@@ -1192,7 +1217,7 @@ Momento inicial:
   não no que “falta” no perfil do avaliado. Evite, assim, descrições do tipo: “você não
   é”, “você não tem”, “mostra dificuldade com...”.
 - Não utilize explanações do tipo “eu percebo”. As descrições apresentadas não
-   derivam da sua percepção e sim de dados objetivos e científicos que a avaliação
+  derivam da sua percepção e sim de dados objetivos e científicos que a avaliação
   PDA identificou.
 - Ao optar por trazer informações sobre o perfil de referência dessa pessoa você
   não precisa nomeá -lo. A avaliação PDA evita rotulações. Prefira apenas explanar

@@ -1,0 +1,205 @@
+// ============================================================
+// MEDIDAS DAX — colar no Power BI após importar as queries PQ
+// Agrupe todas em uma pasta chamada "_Medidas PDA"
+// ============================================================
+
+// ------------------------------------------------------------
+// GRUPO 1 — Contagens e qualidade de dados
+// ------------------------------------------------------------
+
+Total Avaliações = COUNTROWS('PDA_Base')
+
+Qtd Consistentes =
+    CALCULATE(COUNTROWS('PDA_Base'), 'PDA_Base'[Consistencia] = "Consistente")
+
+Qtd Pouco Consistentes =
+    CALCULATE(COUNTROWS('PDA_Base'), 'PDA_Base'[Consistencia] = "Pouco_consistente")
+
+Qtd Inválidos =
+    CALCULATE(COUNTROWS('PDA_Base'), 'PDA_Base'[Consistencia] = "Inválido")
+
+% Consistentes =
+    DIVIDE([Qtd Consistentes], [Total Avaliações], 0)
+
+% Inválidos =
+    DIVIDE([Qtd Inválidos], [Total Avaliações], 0)
+
+// KPI de qualidade (meta: >= 90% consistentes)
+Status Qualidade Dados =
+    IF([% Consistentes] >= 0.9, "✅ Dentro da meta", "⚠️ Abaixo da meta")
+
+// ------------------------------------------------------------
+// GRUPO 2 — Médias dos eixos (respeitam filtros de área/cargo)
+// ------------------------------------------------------------
+
+Risco Médio Natural =
+    CALCULATE(AVERAGE('PDA_Base'[R_natural]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Extroversão Média Natural =
+    CALCULATE(AVERAGE('PDA_Base'[E_natural]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Paciência Média Natural =
+    CALCULATE(AVERAGE('PDA_Base'[P_natural]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Normas Média Natural =
+    CALCULATE(AVERAGE('PDA_Base'[N_natural]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Autocontrole Médio Natural =
+    CALCULATE(AVERAGE('PDA_Base'[A_natural]), 'PDA_Base'[Consistencia] = "Consistente")
+
+// Versão Adaptado
+Risco Médio Adaptado =
+    CALCULATE(AVERAGE('PDA_Base'[R_adaptado]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Extroversão Média Adaptado =
+    CALCULATE(AVERAGE('PDA_Base'[E_adaptado]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Paciência Média Adaptado =
+    CALCULATE(AVERAGE('PDA_Base'[P_adaptado]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Normas Média Adaptado =
+    CALCULATE(AVERAGE('PDA_Base'[N_adaptado]), 'PDA_Base'[Consistencia] = "Consistente")
+
+Autocontrole Médio Adaptado =
+    CALCULATE(AVERAGE('PDA_Base'[A_adaptado]), 'PDA_Base'[Consistencia] = "Consistente")
+
+// ------------------------------------------------------------
+// GRUPO 3 — Visão de Radar (usa a tabela PDA_Eixos_Longo)
+// Medida única usada no visual de radar filtrado por Perfil
+// ------------------------------------------------------------
+
+Valor Médio Eixo =
+    CALCULATE(
+        AVERAGE('PDA_Eixos_Longo'[Valor]),
+        FILTER(
+            'PDA_Eixos_Longo',
+            RELATED('PDA_Base'[Consistencia]) = "Consistente"
+        )
+    )
+
+// ------------------------------------------------------------
+// GRUPO 4 — Análise de Gap Natural x Adaptado
+// ------------------------------------------------------------
+
+Gap Médio Risco = AVERAGE('PDA_Base'[Gap_R])
+Gap Médio Extroversão = AVERAGE('PDA_Base'[Gap_E])
+Gap Médio Paciência = AVERAGE('PDA_Base'[Gap_P])
+Gap Médio Normas = AVERAGE('PDA_Base'[Gap_N])
+Gap Médio Autocontrole = AVERAGE('PDA_Base'[Gap_A])
+
+Gap Total Médio = AVERAGE('PDA_Base'[Gap_Total_Absoluto])
+
+// Colaboradores com gap alto (acima de 60 pontos somados) — risco de esforço excessivo
+Qtd Alto Gap =
+    CALCULATE(
+        COUNTROWS('PDA_Base'),
+        'PDA_Base'[Gap_Total_Absoluto] > 60,
+        'PDA_Base'[Consistencia] = "Consistente"
+    )
+
+% Alto Gap = DIVIDE([Qtd Alto Gap], [Total Avaliações], 0)
+
+// ------------------------------------------------------------
+// GRUPO 5 — Equilíbrio de Energia e Estresse
+// ------------------------------------------------------------
+
+// Pessoas possivelmente estressadas (EE > 60)
+Qtd Possivelmente Estressados =
+    CALCULATE(
+        COUNTROWS('PDA_Base'),
+        'PDA_Base'[EE] > 60,
+        'PDA_Base'[Consistencia] = "Consistente"
+    )
+
+% Estressados = DIVIDE([Qtd Possivelmente Estressados], [Total Avaliações], 0)
+
+// Pessoas possivelmente desmotivadas (EE < 40)
+Qtd Possivelmente Desmotivados =
+    CALCULATE(
+        COUNTROWS('PDA_Base'),
+        'PDA_Base'[EE] < 40,
+        'PDA_Base'[Consistencia] = "Consistente"
+    )
+
+% Desmotivados = DIVIDE([Qtd Possivelmente Desmotivados], [Total Avaliações], 0)
+
+EE Médio =
+    CALCULATE(AVERAGE('PDA_Base'[EE]), 'PDA_Base'[Consistencia] = "Consistente")
+
+
+// ------------------------------------------------------------
+// GRUPO 6 — Perfis com eixos extremados (IE < 20 ou > 80)
+// ------------------------------------------------------------
+
+Qtd com Autocontrole Extremado =
+    CALCULATE(
+        COUNTROWS('PDA_Base'),
+        'PDA_Base'[Autocontrole_Extremado] = TRUE()
+    )
+
+Qtd com Alerta Perfil Intenso =
+    CALCULATE(
+        COUNTROWS('PDA_Base'),
+        'PDA_Base'[Alerta_Perfil_Intenso] = TRUE()
+    )
+
+% Alerta Perfil Intenso = DIVIDE([Qtd com Alerta Perfil Intenso], [Total Avaliações], 0)
+
+Qtd Eixos Extremados Médio = AVERAGE('PDA_Base'[Qtd_Eixos_Extremados])
+
+// ------------------------------------------------------------
+// GRUPO 7 — Tomada de Decisão
+// ------------------------------------------------------------
+
+// Distribuição por classificação de TD
+Qtd por Estilo TD = COUNTROWS('PDA_Base')
+// (use no visual com Classificacao_TD no eixo)
+
+// Percentual com tensão em TD (indecisão entre risco e cautela)
+% em Tensão TD =
+    DIVIDE(
+        CALCULATE(
+            COUNTROWS('PDA_Base'),
+            'PDA_Base'[Classificacao_TD] IN {
+                "Tensão confirmada",
+                "Tensão (arriscado compensado)",
+                "Tensão (cauteloso compensado)"
+            }
+        ),
+        [Total Avaliações],
+        0
+    )
+
+// ------------------------------------------------------------
+// GRUPO 8 — Distância ao Perfil Médio do Cargo
+// (compatibilidade interna — usa apenas Consistentes)
+// ------------------------------------------------------------
+
+Distância ao Perfil Médio Cargo =
+VAR MediaR = CALCULATE(
+    AVERAGE('PDA_Base'[R_adaptado]),
+    ALLEXCEPT('PDA_Base', 'PDA_Base'[cargo]),
+    'PDA_Base'[Consistencia] = "Consistente"
+)
+VAR MediaE = CALCULATE(
+    AVERAGE('PDA_Base'[E_adaptado]),
+    ALLEXCEPT('PDA_Base', 'PDA_Base'[cargo]),
+    'PDA_Base'[Consistencia] = "Consistente"
+)
+VAR MediaP = CALCULATE(
+    AVERAGE('PDA_Base'[P_adaptado]),
+    ALLEXCEPT('PDA_Base', 'PDA_Base'[cargo]),
+    'PDA_Base'[Consistencia] = "Consistente"
+)
+VAR Media_N = CALCULATE(
+    AVERAGE('PDA_Base'[N_adaptado]),
+    ALLEXCEPT('PDA_Base', 'PDA_Base'[cargo]),
+    'PDA_Base'[Consistencia] = "Consistente"
+)
+RETURN
+    SQRT(
+        ('PDA_Base'[R_adaptado] - MediaR)^2 +
+        ('PDA_Base'[E_adaptado] - MediaE)^2 +
+        ('PDA_Base'[P_adaptado] - MediaP)^2 +
+        ('PDA_Base'[N_adaptado] - Media_N)^2
+    )

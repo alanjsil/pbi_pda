@@ -8,12 +8,12 @@
 let
     Fonte = Csv.Document(
         File.Contents("C:\PDA\pda_exemplo.csv"),
-        [Delimiter=",", Columns=31, Encoding=65001, QuoteStyle=QuoteStyle.None]
+        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.None]
     ),
-    
+
     // Promover cabeçalhos
     Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
-    
+
     // Tipos corretos por coluna
     Tipos = Table.TransformColumnTypes(Cabecalhos, {
         {"id_colaborador",         Int64.Type},
@@ -45,6 +45,9 @@ let
         {"NE_natural",             Int64.Type},
         {"EE",                     Int64.Type},
         {"MP",                     Int64.Type},
+        {"TD_adaptado",            Int64.Type},
+        {"IP_adaptado",            Int64.Type},
+        {"TF",                     Int64.Type},
         {"Consistencia",           type text}
     }),
 
@@ -53,7 +56,7 @@ let
     // feitas aqui no PQ para reduzir carga no modelo)
     // ------------------------------------------------------------
 
-    // Classificação de Tomada de Decisão
+    // Classificação de Tomada de Decisão — manual pág. 38
     ClassTD = Table.AddColumn(Tipos, "Classificacao_TD", each
         if [TD_natural] > 80 then "Arriscado"
         else if [TD_natural] > 50 then "Tensão (arriscado compensado)"

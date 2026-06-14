@@ -5,7 +5,7 @@
 ### 1.1 PDA_Base
 
 1. Nova Query > CSV > selecione `pda_exemplo.csv`
-2. Renomeie a query para `PDA_Base`
+2. Nome da base `PDA_Base`
 3. Cole o código do **PASSO 1** do arquivo `powerquery_pda.m`
 4. Fechar e Aplicar
 
@@ -39,7 +39,7 @@ PDA_Faixas não precisa de relacionamento — é usada como tabela de referênci
 
 ## 3. Colunas calculadas vs Medidas
 
-As colunas abaixo já vêm prontas do Power Query (não precisam ser criadas no DAX):
+As colunas abaixo já vêm prontas do Power Query:
 
 - Gap_R, Gap_E, Gap_P, Gap_N, Gap_A, Gap_Total_Absoluto
 - Classificacao_TD, Classificacao_IP, Classificacao_NE, Classificacao_EE, Classificacao_MP

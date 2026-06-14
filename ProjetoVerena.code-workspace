@@ -225,19 +225,4 @@
       "ms-python.python",
     ],
   },
-
-  "launch": {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "type": "python",
-        "request": "launch",
-        "name": "Python: Arquivo Atual (.venv)",
-        "python": "${workspaceFolder}/.venv/Scripts/python.exe",
-        "program": "${file}",
-        "console": "integratedTerminal",
-        "justMyCode": true,
-      },
-    ],
-  },
 }

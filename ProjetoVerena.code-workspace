@@ -11,7 +11,7 @@
     // =========================================================
 
     "files.exclude": {
-      //  Arquivos
+      // Arquivos
       ".gitignore": true,
       "opencode.json": true,
       ".gitattributes": true,

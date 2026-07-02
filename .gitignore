@@ -4,6 +4,7 @@ dist/
 coverage/
 node_modules/
 pbi-tools.1.2.0/
+~$*
 
 # Arquivos
 .env

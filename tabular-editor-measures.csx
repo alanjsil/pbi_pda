@@ -45,23 +45,23 @@ t.AddMeasure("Status Qualidade Dados",
 // ============================================================
 
 t.AddMeasure("Risco Médio Natural",
-    "CALCULATE(AVERAGE('PDA_Base'[R_natural]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[R_natural]),
     displayFolder: "02 Médias Natural");
 
 t.AddMeasure("Extroversão Média Natural",
-    "CALCULATE(AVERAGE('PDA_Base'[E_natural]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[E_natural]),
     displayFolder: "02 Médias Natural");
 
 t.AddMeasure("Paciência Média Natural",
-    "CALCULATE(AVERAGE('PDA_Base'[P_natural]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[P_natural]),
     displayFolder: "02 Médias Natural");
 
 t.AddMeasure("Normas Média Natural",
-    "CALCULATE(AVERAGE('PDA_Base'[N_natural]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[N_natural]),
     displayFolder: "02 Médias Natural");
 
 t.AddMeasure("Autocontrole Médio Natural",
-    "CALCULATE(AVERAGE('PDA_Base'[A_natural]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[A_natural]),
     displayFolder: "02 Médias Natural");
 
 // ============================================================
@@ -69,23 +69,23 @@ t.AddMeasure("Autocontrole Médio Natural",
 // ============================================================
 
 t.AddMeasure("Risco Médio Adaptado",
-    "CALCULATE(AVERAGE('PDA_Base'[R_adaptado]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[R_adaptado]),
     displayFolder: "03 Médias Adaptado");
 
 t.AddMeasure("Extroversão Média Adaptado",
-    "CALCULATE(AVERAGE('PDA_Base'[E_adaptado]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[E_adaptado]),
     displayFolder: "03 Médias Adaptado");
 
 t.AddMeasure("Paciência Média Adaptado",
-    "CALCULATE(AVERAGE('PDA_Base'[P_adaptado]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[P_adaptado]),
     displayFolder: "03 Médias Adaptado");
 
 t.AddMeasure("Normas Média Adaptado",
-    "CALCULATE(AVERAGE('PDA_Base'[N_adaptado]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[N_adaptado]),
     displayFolder: "03 Médias Adaptado");
 
 t.AddMeasure("Autocontrole Médio Adaptado",
-    "CALCULATE(AVERAGE('PDA_Base'[A_adaptado]), 'PDA_Base'[Consistencia] = \"Consistente\")",
+    "CALCULATE(AVERAGE('PDA_Base'[A_adaptado]),
     displayFolder: "03 Médias Adaptado");
 
 // ============================================================

@@ -64,8 +64,7 @@ Cruzar IE do Autocontrole extremado (acima de 80% ou abaixo de 20%) com os outro
 | Cor         | area                                   |
 | Segmentação | Classificacao_TD                       |
 
-> Linhas de referência no scatter: X=33, X=67, Y=33, Y=67
-> dividem o gráfico nos 4 quadrantes de Marston (D/I/S/C)
+[**Informações no arquivo scatter_instrucoes.md**](./scatter_instrucoes.md)
 
 ## Página 4 — Gap Natural x Adaptado
 

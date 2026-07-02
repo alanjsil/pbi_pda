@@ -1,0 +1,66 @@
+Resumo Executivo PDA =
+VAR R = SELECTEDVALUE(PDA_Base[R_natural])
+VAR E = SELECTEDVALUE(PDA_Base[E_natural])
+VAR P = SELECTEDVALUE(PDA_Base[P_natural])
+VAR N = SELECTEDVALUE(PDA_Base[N_natural])
+VAR A = SELECTEDVALUE(PDA_Base[A_natural])
+
+VAR TxtR =
+    IF(R >= 67,
+        "direta e competitiva",
+        IF(R <= 33,
+            "cautelosa e diplomática",
+            "equilibrada quanto à tomada de riscos"
+        )
+    )
+
+VAR TxtE =
+    IF(E >= 67,
+        "com forte orientação para pessoas",
+        IF(E <= 33,
+            "mais reservada e analítica",
+            "com equilíbrio entre interação e análise"
+        )
+    )
+
+VAR TxtP =
+    IF(P >= 67,
+        "valorizando estabilidade e previsibilidade",
+        IF(P <= 33,
+            "buscando dinamismo e mudanças constantes",
+            "adaptando seu ritmo conforme a situação"
+        )
+    )
+
+RETURN
+
+"É uma pessoa " &
+TxtR &
+", " &
+TxtE &
+", " &
+TxtP &
+". Seu comportamento demonstra características compatíveis com seu perfil natural PDA."
+
+
+Palavras Descritivas =
+VAR Lista =
+{
+    IF(MAX(PDA_Base[R_natural]) >= 67, "Competitivo"),
+    IF(MAX(PDA_Base[R_natural]) >= 67, "Determinado"),
+    IF(MAX(PDA_Base[E_natural]) >= 67, "Comunicativo"),
+    IF(MAX(PDA_Base[E_natural]) >= 67, "Persuasivo"),
+    IF(MAX(PDA_Base[P_natural]) <= 33, "Dinâmico"),
+    IF(MAX(PDA_Base[P_natural]) <= 33, "Ágil"),
+    IF(MAX(PDA_Base[N_natural]) >= 67, "Preciso"),
+    IF(MAX(PDA_Base[N_natural]) >= 67, "Detalhista"),
+    IF(MAX(PDA_Base[A_natural]) >= 67, "Lógico"),
+    IF(MAX(PDA_Base[A_natural]) >= 67, "Racional")
+}
+
+RETURN
+CONCATENATEX(
+    FILTER(Lista, NOT ISBLANK([Value])),
+    [Value],
+    " • "
+)

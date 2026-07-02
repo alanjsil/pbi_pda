@@ -10,49 +10,44 @@ A PDA International, convida você a ler este relatório, fazendo um esforço pa
 
 ## Indicador de Consistência
 
+<progress value="80" max="100"></progress>
+
 As Informações contidas no relatório são "coerentes e consistentes", portanto válidas para interpretar e de base sólida para tomar decisões.
 
 ## Gráfico PDA
 
-É uma pessoa direta, assertiva e competitiva. Tomará a iniciativa e vai pressionar para conseguir os objetivos. Os desafios complexos são desafiadores e tem disposição para assumir riscos. Não terá maiores inconvenientes em confrontar outros para alcançar as metas.
-
 ### Eixo do Risco
 
-Cauteloso  
-_[GRÁFICO AQUI]_  
-Arriscado
+**Cauteloso** <progress value="79" max="100"></progress> **Arriscado**
 
-É uma pessoa que interage com outros sem maiores inconvenientes, geralmente é extrovertida. Frequentemente aborda as pessoas e demonstra um grau moderado de interesse.
+> É uma pessoa direta, assertiva e competitiva. Tomará a iniciativa e vai pressionar para conseguir os objetivos. Os desafios complexos são desafiadores e tem disposição para assumir riscos.  
+> Não terá maiores inconvenientes em confrontar outros para alcançar as metas.
 
 ### Eixo da Extroversão
 
-Introvertido  
-_[GRÁFICO AQUI]_  
-Extrovertido
+**Introvertido** <progress value="50" max="100"></progress> **Extrovertido**
 
-É uma pessoa dinâmica e impaciente, motivada pela diversidade, a mudança e a variedade de projetos. Não gosta da rotina e pode aborrecer-se se o seu dia-a-dia não inclui variedade de projetos, responsabilidades ou desafios.
+> É uma pessoa que interage com outros sem maiores inconvenientes, geralmente é extrovertida. Frequentemente aborda as pessoas e demonstra um grau moderado de interesse.
 
 ### Eixo da Paciência
 
-Inquieto/Impaciente  
-_[GRÁFICO AQUI]_  
-Calmo/Paciente
+**Inquieto/Impaciente** <progress value="25" max="100"></progress> **Calmo/Paciente**
 
-É uma pessoa que de acordo com cada situação, selecionará em que medida se ajustará às normas e aos procedimentos preestabelecidos. Por vezes, vai sentir mais segurança consultando e ajustando-se aos procedimentos em outras situações prefere atuar com base na sua intuição de forma mais autônoma e independente.
+> É uma pessoa dinâmica e impaciente, motivada pela diversidade, a mudança e a variedade de projetos. Não gosta da rotina e pode aborrecer-se se o seu dia-a-dia não inclui variedade de projetos, responsabilidades ou desafios.
 
 ### Eixo das Normas
 
-Independente  
-_[GRÁFICO AQUI]_  
-Sujeito às normas
+**Independente** <progress value="25" max="100"></progress> **Sujeito às normas**
 
-É uma pessoa que tende a ser emotiva e emocional. Por vezes inclui e demonstra os seus sentimentos e emoções ao tomar decisões e a gerir equipes.
+> É uma pessoa que de acordo com cada situação, selecionará em que medida se ajustará às normas e aos procedimentos preestabelecidos. Por vezes, vai sentir mais segurança consultando e ajustando-se aos procedimentos em outras situações prefere atuar com base na sua intuição de forma mais autônoma e independente.
 
 ### Eixo do autocontrole
 
-Emocional  
-_[GRÁFICO AQUI]_  
-Racional
+**Emocional** <progress value="30" max="100"></progress> **Racional**
+
+> É uma pessoa que tende a ser emotiva e emocional. Por vezes inclui e demonstra os seus sentimentos e emoções ao tomar decisões e a gerir equipes.
+
+###
 
 ```
 É importante compreender que nem todas as características descritas neste relatório serão evidenciadas simultaneamente e na mesma intensidade. É mais provável que a pessoa observe apenas algumas destas caraterísticas. Quanto mais extremo pontua cada eixo, mais visível será o comportamento e mais caraterístico será o perfil profissional da pessoa.
@@ -128,7 +123,7 @@ Finalmente seleciona-se a solução entre as alternativas avaliadas com o objeto
 - Prefere ter o controle dos fatos antes de realizar qualquer ação.
 - Não considera as suas decisões como absolutas e não terá inconvenientes em as modificar quando contar com nova informação.
 
-## Estilo de liderança de equipes
+### Estilo de liderança de equipes
 
 - Camila Jamaica demonstra exigência, impaciência e competitividade. Ao liderar equipes, estabelece objetivos claros e pressiona para os alcançar rapidamente. Por vezes, pode tornar-se impaciente com as pessoas que não cumprem com as suas responsabilidades.
 - É exigente e seguirá de perto os progressos da equipe no que diz respeito ao atingimento dos objetivos, aos padrões de qualidade e aos tempos definidos.
@@ -215,10 +210,55 @@ Este relatório está relacionado apenas a características comportamentais. O s
 
 ## Gráfico Perfil Comportamental
 
-NATURAL
-ADAPTADO
+Esta seção apresenta a comparação estatística entre as tendências naturais da pessoa analisada e o esforço de modificação comportamental para se ajustar à sua situação atual.
 
-_[Gráfico Perfil Comportamental]_
+### 1. Comparativo dos Eixos (Valores do Perfil)
+
+| Perfil       | R (Risco) | E (Extroversão) | P (Paciência) | N (Normas) | A (Autocontrole) |
+| :----------- | :-------: | :-------------: | :-----------: | :--------: | :--------------: |
+| **NATURAL**  |    100    |       50        |       8       |     42     |        8         |
+| **ADAPTADO** |    100    |       42        |      29       |     29     |        43        |
+
+### 2. Indicadores Estatísticos do Perfil
+
+A tabela abaixo detalha o número de palavras selecionadas (#) e o Indicador de Eixo (IE) calculados para cada uma das dimensões.
+
+| Métrica         |  R  |  E  |  P  |  N  |  A  |
+| :-------------- | :-: | :-: | :-: | :-: | :-: |
+| **# Natural**   |  7  |  3  |  4  |  1  |  4  |
+| **IE Natural**  | 69% | 50% | 36% | 48% | 36% |
+|                 |     |     |     |     |     |
+| **# Adaptado**  | 10  |  3  |  5  |  0  |  6  |
+| **IE Adaptado** | 84% | 47% | 39% | 39% | 47% |
+
+### 3. Indicadores de Tomada de Decisão e Energia
+
+Abaixo estão as estimativas de intensidade percentual mapeadas diretamente dos eixos gráficos da página 15:
+
+- **Tomada de Decisões**
+  - **Natural:** `82%` <progress value="82" max="100"></progress>
+  - **Adaptado:** `87%` <progress value="87" max="100"></progress>
+
+- **Intensidade do Perfil:**
+  - **Natural:** `40%` <progress value="40" max="100"></progress>
+  - **Adaptado:** `48%` <progress value="48" max="100"></progress>
+
+- **Nível de Energia (NE):**
+  - **Natural:** `27%` <progress value="27" max="100"></progress>
+  - **Adaptado:** `31%` <progress value="31" max="100"></progress>
+
+### 4. Indicadores de Adaptação Geral
+
+Estes índices medem o nível de estresse, flexibilidade e o tempo de resposta durante o preenchimento do formulário.
+
+- **Equilíbrio de Energia:**<br/>
+  `61%` (Indica que ela sente algum estresse e procura moderados)<br/>
+  <progress value="61" max="100"></progress>
+- **Modificação do Perfil:**<br/>
+  `80%` (Prova que pode adaptar-se e que é de certa forma flexível)<br/>
+  <progress value="80" max="100"></progress>
+- **Tempo do Formulário:** `15 minutos`<br/>
+  <progress value="15" max="60"></progress>
 
 ## Descrição
 
@@ -234,15 +274,46 @@ Mudando um pouco o foco, trazendo pontos que digamos podem ser descritos como "n
 
 ## Gráfico Radar PDA
 
-NATURAL
-ADAPTADO
-Camila Jamaica Zanetti De Sousa
+Esta seção mapeia o foco de atuação (Tarefas ou Pessoas) e o estilo de reação (Proativo ou Reativo) da pessoa analisada.
 
-_[Gráfico Radar PDA]_
+### 1. Foco de Atuação e Estilo
+
+| Métrica               | Perfil NATURAL                            | Perfil ADAPTADO                                                         |
+| :-------------------- | :---------------------------------------- | :---------------------------------------------------------------------- |
+| **Foco Predominante** | Altamente voltado para **Tarefas**        | Equilibrando levemente para **Pessoas**, mas mantém foco em **Tarefas** |
+| **Estilo de Reação**  | Fortemente **Proativo** (Eixo Risco alto) | Mantém estilo **Proativo**                                              |
+
+### 2. Eixos de Autocontrole
+
+O eixo de autocontrole mede a tendência a planejar racionalmente as situações versus atuar de forma espontânea e por impulsos emocionais.
+
+- **Autocontrole no Perfil NATURAL:** `8%` (Menor Autocontrole)
+  - _Tendência a atuar por impulsos e de forma mais emocional, com menos planejamento estruturado._<br/>
+    Espontâneo <progress value="9" max="60"></progress> Racional
+- **Autocontrole no Perfil ADAPTADO:** `43%` (Maior Autocontrole)
+  - _Na situação atual, Camila percebe a necessidade de aumentar significativamente o planejamento e agir de forma mais racional._<br/>
+    Espontâneo <progress value="42" max="60"></progress> Racional
 
 ## Gráfico Circular PDA
 
-_[Gráfico Circular PDA]_
+O perfil de Camila Jamaica é caracterizado por eixos em extremos opostos (Risco muito alto e Paciência muito baixa), o que molda suas principais competências norteadoras.
+
+### 1. Quadrantes Comportamentais (Perfil de Camila)
+
+| [R] DOMINANTE (Intensidade Alta `+`)                                                                                                                                                            | [E] PROMOTOR (Intensidade Moderada)                                                                                                                                            |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| • Direta e Expedita<br>• Motivada por desafios<br>• Orientada para os resultados<br>• Audaz, ações competitivas<br>• Firme, de decisões rápidas<br>• Assume a autoridade e as responsabilidades | • Proativo e Entusiasta<br>• Agente da mudança<br>• Promove novas ideias<br>• Competitiva com outros<br>• Resultados através das pessoas<br>• Comunicadora direta e persuasiva |
+
+| [N] REGRAS (Abaixo da Média)                                                                                                                                               | [P] CALMO (Intensidade Baixa `-`)                                                                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| • Busca atuar com autonomia<br>• Questiona normas preestabelecidas<br>• Necessidade de atenção para não ultrapassar limites<br>• Prefere flexibilidade a processos rígidos | • Inquieta, dinâmica e impaciente<br>• Busca por forte variedade de projetos<br>• Baixa tolerância à rotina e repetição<br>• Ritmo de trabalho acelerado |
+
+---
+
+### 2. Definição do Nível de Autocontrole (Legenda do Gráfico)
+
+- **Menor Autocontrole (Perfil Natural de Camila - 8%):** Tem maior tendência a atuar espontaneamente. Flutua mais de acordo com a emoção e realiza menos planejamento prévio das situações.
+- **Maior Autocontrole:** Maior planejamento das situações. Tendência a agir de forma mais racional e analítica.
 
 ## Gráfico Comportamental de Radar
 
@@ -256,81 +327,61 @@ _[Gráfico Comportamental de Radar]_
 
 Esta competência mede as habilidades da pessoa em relação ao seguimento de políticas e controle, de acordo com as regras e procedimentos corretos.
 
-```
-Menor esforço ---|--- Maior esforço
-```
+**Maior esforço** <progress value="45" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Atenção e escuta
 
 Esta competência mede as habilidades de "escuta e receptividade" da pessoa. Paciência, tolerância e tempo para dedicar a outros.
 
-```
-Menor esforço -|----- Maior esforço
-```
+**Maior esforço** <progress value="18" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Orientação competitiva para resultados
 
 Esta competência mede as habilidades da pessoa para se orientar para os resultados para através de um estilo direto e competitivo, assumindo certos riscos e confrontando se for necessário.
 
-```
-Menor esforço ------| Maior esforço
-```
+**Maior esforço** <progress value="90" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Assessoria, suporte e atendimento ao cliente
 
 Esta competência mede as habilidades da pessoa no que diz respeito ao "Atenção Cliente" e sua capacidade de prestar serviços através de um estilo amigável, atencioso e consistente
 
-```
-Menor esforço --|---- Maior esforço
-```
+**Maior esforço** <progress value="26" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Dinamismo e sentido de urgência
 
 Esta competência mede as habilidades da pessoa para responder aos desafios que requerem diversidade, mudança e variedade, quando os tempos são urgentes e a urgência é importante.
 
-```
-Menor esforço ------| Maior esforço
-```
+**Maior esforço** <progress value="95" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Implementação
 
 Esta competência mede as habilidades da pessoa para responder aos desafios que requerem diversidade, mudança e variedade, quando os tempos são urgentes e a urgência é importante.
 
-```
-Menor esforço -----|- Maior esforço
-```
+**Maior esforço** <progress value="83" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Persuasão e extroversão
 
 Esta competência mede as habilidades da pessoa no que diz respeito a "relações Interpessoais" e sua Capacidade de Relacionamento através de um estilo extrovertido, sociável e persuasivo
 
-```
-Menor esforço ----|-- Maior esforço
-```
+**Maior esforço** <progress value="73" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Precisão - Qualidade
 
 Esta competência mede as habilidades da pessoa no que diz respeito a tarefas que exigem precisão, qualidade e detalhe. Acompanhar os tópicos até sua definição.
 
-```
-Menor esforço -|----- Maior esforço
-```
+**Maior esforço** <progress value="22" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Proatividade e independência
 
 Esta competência mede a "proatividade", tanto para tarefas como para pessoas. As habilidades de persuasão e capacidade de motivar outros em busca de desafios que exigem criatividade e independência.
 
-```
-Menor esforço ------| Maior esforço
-```
+**Maior esforço** <progress value="80" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Orientação estratégica para os resultados
 
 Esta competência mede as habilidades da pessoa a Orientar-se para os Resultados a através de um estilo concreto e consistente, elaborando estratégias, minimizando os riscos e evitando o confronto.
 
-```
-Menor esforço --|---- Maior esforço
-```
+**Maior esforço** <progress value="40" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ---
 

@@ -1,14 +1,17 @@
 ## Introdução
 
-A avaliação PDA é um instrumento confiável e cientificamente validado que foi desenvolvido para compreender e descrever o comportamento das pessoas.  
-Com base no preenchimento do formulário, seguindo e respeitando as instruções, neste relatório, você encontrará uma descrição de como você geralmente responde a diferentes situações, desafios e compromissos que surgem no seu dia a dia.  
+A avaliação PDA é um instrumento confiável e cientificamente validado que foi desenvolvido para compreender e descrever o comportamento das pessoas.
+
+Com base no preenchimento do formulário, seguindo e respeitando as instruções, neste relatório, você encontrará uma descrição de como você geralmente responde a diferentes situações, desafios e compromissos que surgem no seu dia a dia.
+
 Portanto, esta avaliação fornece uma avaliação completa da análise do seu perfil comportamental e o motivo das suas decisões.  
 Deve-se levar em conta que, ocasionalmente, podemos nos adaptar e modificar nossos comportamentos, potencializando ou inibindo nossas tendências naturais.
 
-Neste relatório você encontrará informações sobre esses comportamentos que são mais típicos e característicos do seu estilo de comportamento e seus principais motivadores.  
+Neste relatório você encontrará informações sobre esses comportamentos que são mais típicos e característicos do seu estilo de comportamento e seus principais motivadores.
+
 A PDA International, convida você a ler este relatório, fazendo um esforço para identificar essas características do seu estilo de comportamento que vem tendo um impacto positivo e tem sido favorável, bem como as características que, em diferentes ocasiões, complicaram e afetaram negativamente o seu caminho para o sucesso.
 
-### Indicador de Consistência `80%`
+## Indicador de Consistência `80%`
 
 <progress value="80" max="100"></progress>
 
@@ -18,6 +21,8 @@ As Informações contidas no relatório são "coerentes e consistentes", portant
 
 ### Eixo do Risco `79%`
 
+> Valor estimado a partir do gráfico.
+
 **Cauteloso** <progress value="79" max="100"></progress> **Arriscado**
 
 > É uma pessoa direta, assertiva e competitiva. Tomará a iniciativa e vai pressionar para conseguir os objetivos. Os desafios complexos são desafiadores e tem disposição para assumir riscos.  
@@ -25,11 +30,15 @@ As Informações contidas no relatório são "coerentes e consistentes", portant
 
 ### Eixo da Extroversão `50%`
 
+> Valor estimado a partir do gráfico.
+
 **Introvertido** <progress value="50" max="100"></progress> **Extrovertido**
 
 > É uma pessoa que interage com outros sem maiores inconvenientes, geralmente é extrovertida. Frequentemente aborda as pessoas e demonstra um grau moderado de interesse.
 
 ### Eixo da Paciência `25%`
+
+> Valor estimado a partir do gráfico.
 
 **Inquieto/Impaciente** <progress value="25" max="100"></progress> **Calmo/Paciente**
 
@@ -37,11 +46,15 @@ As Informações contidas no relatório são "coerentes e consistentes", portant
 
 ### Eixo das Normas `25`
 
+> Valor estimado a partir do gráfico.
+
 **Independente** <progress value="25" max="100"></progress> **Sujeito às normas**
 
 > É uma pessoa que de acordo com cada situação, selecionará em que medida se ajustará às normas e aos procedimentos preestabelecidos. Por vezes, vai sentir mais segurança consultando e ajustando-se aos procedimentos em outras situações prefere atuar com base na sua intuição de forma mais autônoma e independente.
 
 ### Eixo do autocontrole `30%`
+
+> Valor estimado a partir do gráfico.
 
 **Emocional** <progress value="30" max="100"></progress> **Racional**
 
@@ -72,23 +85,23 @@ Crítico
 
 Esta seção permite ter uma ampla visão e compreensão sobre o estilo natural de comportamento desta pessoa. A partir desta descrição é possível ter uma compreensão mais profunda sobre como esta pessoa responde perante a necessidade de resolver problemas, enfrentar novos desafios, exercer a sua influência, adaptar-se à mudança, responder às regras e procedimentos impostos por outros, assim como a sua capacidade de controlar os seus impulsos e emoções.
 
-Camila Jamaica é uma pessoa expeditiva, com um urgente e impaciente desejo de alcançar os resultados de forma rápida. Tem um comportamento competitivo e confia nas suas próprias habilidades. Gosta dos desafios, procura objetivos difíceis e ter autoridade dentro da sua área de conhecimento. Gosta muito da variedade no seu trabalho e da mudança, pelo que se pode aborrecer rapidamente com a rotina e com o trabalho repetitivo.
+_Camila Jamaica é uma pessoa expeditiva, com um urgente e impaciente desejo de alcançar os resultados de forma rápida. Tem um comportamento competitivo e confia nas suas próprias habilidades. Gosta dos desafios, procura objetivos difíceis e ter autoridade dentro da sua área de conhecimento. Gosta muito da variedade no seu trabalho e da mudança, pelo que se pode aborrecer rapidamente com a rotina e com o trabalho repetitivo._
 
-Responde às situações de pressão de forma rápida e positiva. Gosta dos desafios e das situações competitivas. É uma pessoa inquieta e enérgica. Gosta de desenvolver planos para o futuro, de se antecipar às dificuldades e geralmente prevê a maioria das eventualidades. Demonstra predisposição para assumir riscos e para os encarar com iniciativa, inclusivamente quando se encontra em circunstâncias ameaçadoras ou desfavoráveis.
+_Responde às situações de pressão de forma rápida e positiva. Gosta dos desafios e das situações competitivas. É uma pessoa inquieta e enérgica. Gosta de desenvolver planos para o futuro, de se antecipar às dificuldades e geralmente prevê a maioria das eventualidades. Demonstra predisposição para assumir riscos e para os encarar com iniciativa, inclusivamente quando se encontra em circunstâncias ameaçadoras ou desfavoráveis._
 
-Tem um forte desejo de fazer mudanças para a melhoria de métodos, sistemas, processos e resultados existentes. É, em muitos aspectos, agente de mudança. Enfatiza a iniciativa, a aplicação rápida e a continuidade nos seus esforços de mudança. Gosta de pôr em prática a imaginação e a criatividade nos seus esforços.
+_Tem um forte desejo de fazer mudanças para a melhoria de métodos, sistemas, processos e resultados existentes. É, em muitos aspectos, agente de mudança. Enfatiza a iniciativa, a aplicação rápida e a continuidade nos seus esforços de mudança. Gosta de pôr em prática a imaginação e a criatividade nos seus esforços._
 
-No trato com outros demonstrará entusiasmo. É exigente e regularmente pressionará a equipe para trabalhar mais rapidamente. Tem dotes de comunicação graças à sua energia, intensidade, persuasão e abordagem carismática. Geralmente tende a ser uma pessoa direta e que gere com facilidade as objeções de outros.
+_No trato com outros demonstrará entusiasmo. É exigente e regularmente pressionará a equipe para trabalhar mais rapidamente. Tem dotes de comunicação graças à sua energia, intensidade, persuasão e abordagem carismática. Geralmente tende a ser uma pessoa direta e que gere com facilidade as objeções de outros._
 
-Tem capacidade para motivar outros para que atuem. Pode trabalhar com e através das pessoas para conseguir fazer as coisas, mas tende a escutar apenas superficialmente, preferindo trabalhar e lidar com pessoas que tenham a mesma opinião e que não discutam em excesso as suas ideias. Em situações em que tem que desenvolver planos estratégicos ou resolver problemas complexos, prefere trabalhar por sua conta. Analisa todas as opiniões, fatos e dados. Gosta da precisão e geralmente tenta trabalhar com objetividade.
+_Tem capacidade para motivar outros para que atuem. Pode trabalhar com e através das pessoas para conseguir fazer as coisas, mas tende a escutar apenas superficialmente, preferindo trabalhar e lidar com pessoas que tenham a mesma opinião e que não discutam em excesso as suas ideias. Em situações em que tem que desenvolver planos estratégicos ou resolver problemas complexos, prefere trabalhar por sua conta. Analisa todas as opiniões, fatos e dados. Gosta da precisão e geralmente tenta trabalhar com objetividade._
 
-Apesar de ter um forte sentido de urgência, não gosta de não contar com o tempo suficiente para tomar decisões. Por vezes pode parecer perfeccionista e autoexigente, fazendo cumprir as regras e os procedimentos ou estabelecendo normas muito altas para os outros. Tende a irritar-se com as pessoas se percebe que as coisas não mudam o suficientemente rápido ou se não se obtém os resultados que espera.
+_Apesar de ter um forte sentido de urgência, não gosta de não contar com o tempo suficiente para tomar decisões. Por vezes pode parecer perfeccionista e autoexigente, fazendo cumprir as regras e os procedimentos ou estabelecendo normas muito altas para os outros. Tende a irritar-se com as pessoas se percebe que as coisas não mudam o suficientemente rápido ou se não se obtém os resultados que espera._
 
-Devido ao seu estilo inquisitivo, lógico e preciso, tem habilidade para resolver problemas complexos, apresentar a informação de forma sistemática e tende a sentir atração pelos campos técnicos. Gosta de empreender, planejar a futuro, investigar problemas, avaliar soluções práticas e verificar as normas de qualidade.
+_Devido ao seu estilo inquisitivo, lógico e preciso, tem habilidade para resolver problemas complexos, apresentar a informação de forma sistemática e tende a sentir atração pelos campos técnicos. Gosta de empreender, planejar a futuro, investigar problemas, avaliar soluções práticas e verificar as normas de qualidade._
 
-Por ser uma pessoa muito dominante e competitiva, procurará ativamente ter autoridade em todas as situações em que se encontre. Geralmente vai criar-lhe muita tensão ceder o controle a outra pessoa, podendo reagir de forma confrontativa e argumentativa.
+_Por ser uma pessoa muito dominante e competitiva, procurará ativamente ter autoridade em todas as situações em que se encontre. Geralmente vai criar-lhe muita tensão ceder o controle a outra pessoa, podendo reagir de forma confrontativa e argumentativa._
 
-Seu forte sentido de urgência, os atrasos de trabalho e o fato de ter que lidar com muitos projetos a longo prazo pode gerar-lhe tensão. Gosta da variedade, motivo pelo qual a falta de ação, a rotina no trabalho e a indecisão podem ser fatores de estresse. Perante esta situação pode responder de forma muito impaciente e irritada, tomando decisões impulsivas e abandonando o seu compromisso devido à frustração.
+_Seu forte sentido de urgência, os atrasos de trabalho e o fato de ter que lidar com muitos projetos a longo prazo pode gerar-lhe tensão. Gosta da variedade, motivo pelo qual a falta de ação, a rotina no trabalho e a indecisão podem ser fatores de estresse. Perante esta situação pode responder de forma muito impaciente e irritada, tomando decisões impulsivas e abandonando o seu compromisso devido à frustração._
 
 ## Estilo de liderança
 
@@ -317,7 +330,75 @@ O perfil de Camila Jamaica é caracterizado por eixos em extremos opostos (Risco
 
 ## Gráfico Comportamental de Radar
 
-_[Gráfico Comportamental de Radar]_
+_[Gráfico Comportamental de Radar transcrevido abaixo]_
+
+### Competências Comportamentais
+
+Esta seção apresenta a descrição conceitual das competências utilizadas pelo método PDA. As definições abaixo são referências do modelo e auxiliam na interpretação dos indicadores comportamentais apresentados ao longo do relatório.
+
+#### Iniciativa
+
+Tendência natural para se antecipar e propor ações inovadoras. É a atitude permanente de atuar quando se apresenta a ocasião, sem esperar ordens ou instruções, procurando e criando oportunidades e resolvendo situações e problemas. Antecipa-se e atua ativando vínculos e relações, ganhando o respeito e a confiança de diversos tipos de pessoas em que impacta e influencia para alcançar os resultados.
+
+#### Inteligência social/relacional
+
+Tendência natural para se comunicar e relacionar eficientemente com outros gerindo a diversidade social, fazendo destas relações um canal para chegar ao alinhamento estratégico dos objetivos da organização. Manifesta uma inclinação natural para gerar, estabelecer, manter e potencializar relações de valor através de um fluxo de comunicação adequado entre os membros do grupo ou da organização, utilizando os distintos códigos e canais exigidos a cada caso.
+
+#### Influência
+
+Tendência natural para influenciar e impactar os outros criando compromisso e construindo consenso. Descreve uma visão otimista que se orienta para os resultados trabalhando com e através das pessoas, demonstrando-se sociável, amigável e influente.
+
+#### Autonomia
+
+Tendência natural a se orientar para os resultados de forma segura, independente e com autonomia, identificando as oportunidades em diferentes situações. Aproveita os recursos disponíveis (tempo, pessoas, recursos econômicos), proporciona soluções e empreende assumindo a todo o momento a responsabilidade e as consequências dos seus atos.
+
+#### Desenvolvimento de Pessoas
+
+Tendência natural a ajudar os outros, apoiar as pessoas e as equipes de trabalho no seu desenvolvimento e na superação diária. Concentra-se nas pessoas impulsionando a colaboração, motivando e desafiando para uma aprendizagem e um desenvolvimento contínuo. Promove um ambiente harmonioso, de entendimento mútuo, cordial e complementar, fomentando soluções inclusivas e cultivando a responsabilidade partilhada.
+
+#### Orientação para o Serviço
+
+Tendência natural a identificar, entender e gerir as necessidades de todos os stakeholders (equipes, clientes, provedores etc.) com a vontade de oferecer soluções com excelência no trato e gerando experiências positivas. Tende a resolver as diferentes situações garantindo a solução com um estilo prestativo, paciente, calmo e equilibrado, inclusive em situações de pressão.
+
+#### Diplomacia
+
+Tendência natural a se demonstrar amável e gentil, assim como a perceber, compartilhar ou inferir os sentimentos, pensamentos e emoções dos outros, entendendo os diferentes pontos de vista. Tende a ser uma pessoa diplomática na sua abordagem, orientando-se para os resultados de forma paciente, amável e cordial, evitando o confronto.
+
+#### Disponibilidade
+
+Tendência natural a dedicar tempo aos outros. Manifesta abertura e disposição para o outro, com uma grande capacidade de escuta e atingindo um bom nível de empatia. Tem um estilo paciente, mostrando ser uma pessoa generosa e compassiva, orientando-se para os resultados de forma consistente e dedicando o tempo necessário.
+
+#### Precisão
+
+Tendência natural para a abordagem analítica, cautelosa, sistemática e detalhada dos problemas e das decisões, com um método preciso e cuidadoso. Manifesta comodidade e eficácia em situações e ambientes estruturados e bem definidos.
+
+#### Atenção Focada
+
+Tendência natural para uma atenção focada, independentemente do contexto, com o objetivo de obter e gerir informação relevante de forma eficiente. Tem preferência por seguir procedimentos de forma precisa e ordenada, concentrando-se nos detalhes e esmerando-se por evitar erros na sua abordagem ao resultado.
+
+#### Pensamento Analítico
+
+Tendência natural a avançar para a resolução de problemas aplicando um diagnóstico referencial, avaliando as suas possíveis causas e procurando diferentes comportamentos entre as causas, decompondo o problema complexo em partes mais simples, testando e descartando hipóteses. Mede-se a pessoa se é disciplinada, precisa e se orienta para os resultados analisando a informação e os fatos para avançar de forma lógica, sistemática e organizada.
+
+#### Excelência Técnica
+
+Tendência natural para se orientar para os resultados de forma consistente e segura, analisando a informação disponível, seguindo os procedimentos e procurando a harmonia e a excelência para alcançar soluções alinhadas com o desenvolvimento organizacional. Manifesta uma abordagem crítica e exigente das diferentes situações, interessando-se pelo cumprimento de métodos e procedimentos que assegurem a qualidade e evitem o erro.
+
+#### Implementação
+
+Tendência natural para um pensamento preliminar à concretização e à execução e pôr em prática um plano, método, ideia, modelo ou política para fazer algo ou solucionar um problema. Implica uma estratégia prévia, um método e a sua execução, apresentando dinamismo num contexto de normas e procedimentos. Aborda os problemas de forma meticulosa e curiosa, estudando, analisando e tomando decisões com base na lógica.
+
+#### Expeditividade
+
+Tendência natural para responder com sentido de urgência e a fazer com que as coisas aconteçam. Tende a ser uma pessoa expedita e flexível, que responde positivamente perante a diversidade e a mudança, inclusive com a pressão dos tempos.
+
+#### Determinação
+
+Tendência natural a olhar em frente com um estilo proativo e resolutivo para conseguir as suas metas. Implica segurança e coragem nas suas decisões. Manifesta uma tendência a assumir riscos para conseguir as suas metas e uma orientação para os resultados de forma determinada e firme, confrontando se necessário e assumindo a responsabilidade e desafios.
+
+#### Agente de Mudança
+
+Tendência a ser o motor da mudança, propondo transformações, gerando um contexto onde se debatem e valorizam novas ideias, alternativas e se questione o status quo. Capacidade de reagir de forma flexível perante as barreiras e dificuldades. Tende a prestar atenção ao ambiente, ao contexto social e organizacional para propor mudanças e melhorias que tenham um impacto positivo.
 
 ## Tendências de Comportamento
 
@@ -327,11 +408,15 @@ _[Gráfico Comportamental de Radar]_
 
 Esta competência mede as habilidades da pessoa em relação ao seguimento de políticas e controle, de acordo com as regras e procedimentos corretos.
 
+> Valor estimado a partir do gráfico.
+
 **Maior esforço** <progress value="45" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Atenção e escuta
 
 Esta competência mede as habilidades de "escuta e receptividade" da pessoa. Paciência, tolerância e tempo para dedicar a outros.
+
+> Valor estimado a partir do gráfico.
 
 **Maior esforço** <progress value="18" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
@@ -339,11 +424,15 @@ Esta competência mede as habilidades de "escuta e receptividade" da pessoa. Pac
 
 Esta competência mede as habilidades da pessoa para se orientar para os resultados para através de um estilo direto e competitivo, assumindo certos riscos e confrontando se for necessário.
 
+> Valor estimado a partir do gráfico.
+
 **Maior esforço** <progress value="90" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Assessoria, suporte e atendimento ao cliente
 
 Esta competência mede as habilidades da pessoa no que diz respeito ao "Atenção Cliente" e sua capacidade de prestar serviços através de um estilo amigável, atencioso e consistente
+
+> Valor estimado a partir do gráfico.
 
 **Maior esforço** <progress value="26" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
@@ -351,11 +440,15 @@ Esta competência mede as habilidades da pessoa no que diz respeito ao "Atençã
 
 Esta competência mede as habilidades da pessoa para responder aos desafios que requerem diversidade, mudança e variedade, quando os tempos são urgentes e a urgência é importante.
 
+> Valor estimado a partir do gráfico.
+
 **Maior esforço** <progress value="95" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Implementação
 
 Esta competência mede as habilidades da pessoa para responder aos desafios que requerem diversidade, mudança e variedade, quando os tempos são urgentes e a urgência é importante.
+
+> Valor estimado a partir do gráfico.
 
 **Maior esforço** <progress value="83" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
@@ -363,11 +456,15 @@ Esta competência mede as habilidades da pessoa para responder aos desafios que 
 
 Esta competência mede as habilidades da pessoa no que diz respeito a "relações Interpessoais" e sua Capacidade de Relacionamento através de um estilo extrovertido, sociável e persuasivo
 
+> Valor estimado a partir do gráfico.
+
 **Maior esforço** <progress value="73" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Precisão - Qualidade
 
 Esta competência mede as habilidades da pessoa no que diz respeito a tarefas que exigem precisão, qualidade e detalhe. Acompanhar os tópicos até sua definição.
+
+> Valor estimado a partir do gráfico.
 
 **Maior esforço** <progress value="22" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
@@ -375,11 +472,15 @@ Esta competência mede as habilidades da pessoa no que diz respeito a tarefas qu
 
 Esta competência mede a "proatividade", tanto para tarefas como para pessoas. As habilidades de persuasão e capacidade de motivar outros em busca de desafios que exigem criatividade e independência.
 
+> Valor estimado a partir do gráfico.
+
 **Maior esforço** <progress value="80" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 
 ### Orientação estratégica para os resultados
 
 Esta competência mede as habilidades da pessoa a Orientar-se para os Resultados a através de um estilo concreto e consistente, elaborando estratégias, minimizando os riscos e evitando o confronto.
+
+> Valor estimado a partir do gráfico.
 
 **Maior esforço** <progress value="40" max="100"></progress> **Menor esforço** _(Perfil Natural)_
 

@@ -303,3 +303,87 @@ let
     )
 in
     Tabela
+
+
+// ============================================================
+// PASSO 4 — Tabela auxiliar de referencias de perfil
+// Renomeie para "PDA_Perfis_Referencia"
+// ============================================================
+let
+    Tabela = #table(
+        {"Perfil","R","E","P","N"},
+        {
+            {"Proativo",100,100,0,0}, {"Decidido",100,50,50,0}, {"Dinâmico",100,50,0,50},
+            {"Dominante",100,40,20,40}, {"Investigador",100,0,100,0}, {"Determinado",100,0,50,50},
+            {"Resolutivo",100,0,0,100}, {"Intuitivo",60,80,60,0}, {"Inquieto",60,80,0,60},
+            {"Analítico",60,0,80,60}, {"Convincente",50,100,50,0}, {"Influente",50,100,0,50},
+            {"Diplomático",50,50,100,0}, {"Exigente",50,50,0,100}, {"Lógico",50,0,100,50},
+            {"Cético",50,0,50,100}, {"Promotor",40,100,40,20}, {"Calmo",40,20,100,40},
+            {"Normativo",40,20,40,100}, {"Orientado para Pessoas",0,100,100,0},
+            {"Amável",0,100,50,50}, {"Cativante",0,100,0,100}, {"Colaborador",0,60,80,60},
+            {"Amigável",0,50,100,50}, {"Preciso",0,50,50,100}, {"Receptivo",0,0,100,100}
+        }
+    )
+in
+    Tabela
+
+
+// ============================================================
+// PASSO 5 — Tabela auxiliar de competencias
+// Renomeie para "PDA_Competencias_Pesos"
+// ============================================================
+let
+    Tabela = #table(
+        {"Competencia", "Peso_R", "Peso_E", "Peso_P", "Peso_N", "Peso_A"},
+        {
+            {"Comunicação",                0.2,  1.0,  0.0, -0.3,  0.0},
+            {"Desenvolvimento de Pessoas", -0.3,  0.6,  0.8,  0.0,  0.0},
+            {"Orientação para Resultados",  0.9,  0.2, -0.3,  0.0,  0.2},
+            {"Pensamento Estratégico",      0.3,  0.0,  0.0,  0.4,  0.8}
+        }
+    )
+in
+    Tabela
+
+
+// ============================================================
+// PASSO 6 — Tabela auxiliar de competencias
+// Isto é uma tabela calculada
+// ============================================================
+PDA_Competencias_Scores =
+ADDCOLUMNS(
+    ADDCOLUMNS(
+        CROSSJOIN(
+            SELECTCOLUMNS(
+                'PDA_Base',
+                "id_colaborador", 'PDA_Base'[id_colaborador],
+                "nome",           'PDA_Base'[nome],
+                "area",           'PDA_Base'[area],
+                "cargo",          'PDA_Base'[cargo],
+                "R",              'PDA_Base'[R_natural],
+                "E",              'PDA_Base'[E_natural],
+                "P",              'PDA_Base'[P_natural],
+                "N",              'PDA_Base'[N_natural],
+                "A",              'PDA_Base'[A_natural]
+            ),
+            'PDA_Competencias_Pesos'
+        ),
+        "Score",
+        VAR SomaAbsPesos = ABS([Peso_R]) + ABS([Peso_E]) + ABS([Peso_P]) + ABS([Peso_N]) + ABS([Peso_A])
+        VAR ScoreBruto =
+            50 + DIVIDE(
+                [Peso_R]*([R]-50) + [Peso_E]*([E]-50) + [Peso_P]*([P]-50) + [Peso_N]*([N]-50) + [Peso_A]*([A]-50),
+                SomaAbsPesos, 0
+            )
+        RETURN MAX(0, MIN(100, ScoreBruto))
+    ),
+    "Classificacao",
+    SWITCH(
+        TRUE(),
+        [Score] >= 80, "Excelente",
+        [Score] >= 60, "Muito Boa",
+        [Score] >= 40, "Aceitável",
+        "Baixa"
+    ),
+    "Estrelas", ROUND([Score] / 20, 0)
+)

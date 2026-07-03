@@ -385,3 +385,65 @@ CONCATENATEX(
     "" • ""
 )",
     displayFolder: "11 Resumo");
+
+// ============================================================
+// 12 — Competência
+// Medidas agregadas de scores e classificações por competência
+// ============================================================
+
+t.AddMeasure("Total Pares Pessoa-Competência",
+    "COUNTROWS('PDA_Competencias_Scores')",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("Qtd Excelente",
+    "CALCULATE(COUNTROWS('PDA_Competencias_Scores'), 'PDA_Competencias_Scores'[Classificacao] = \"Excelente\")",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("Qtd Muito Boa",
+    "CALCULATE(COUNTROWS('PDA_Competencias_Scores'), 'PDA_Competencias_Scores'[Classificacao] = \"Muito Boa\")",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("Qtd Aceitável",
+    "CALCULATE(COUNTROWS('PDA_Competencias_Scores'), 'PDA_Competencias_Scores'[Classificacao] = \"Aceitável\")",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("Qtd Baixa",
+    "CALCULATE(COUNTROWS('PDA_Competencias_Scores'), 'PDA_Competencias_Scores'[Classificacao] = \"Baixa\")",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("% Excelente",
+    "DIVIDE([Qtd Excelente], [Total Pares Pessoa-Competência], 0)",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("% Muito Boa",
+    "DIVIDE([Qtd Muito Boa], [Total Pares Pessoa-Competência], 0)",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("% Aceitável",
+    "DIVIDE([Qtd Aceitável], [Total Pares Pessoa-Competência], 0)",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("% Baixa",
+    "DIVIDE([Qtd Baixa], [Total Pares Pessoa-Competência], 0)",
+    displayFolder: "12 Competência");
+
+t.AddMeasure("Score Competência", @"
+VAR R = SELECTEDVALUE('PDA_Base'[R_natural])
+VAR E = SELECTEDVALUE('PDA_Base'[E_natural])
+VAR P = SELECTEDVALUE('PDA_Base'[P_natural])
+VAR N = SELECTEDVALUE('PDA_Base'[N_natural])
+VAR A = SELECTEDVALUE('PDA_Base'[A_natural])
+VAR wR = SELECTEDVALUE('PDA_Competencias_Pesos'[Peso_R])
+VAR wE = SELECTEDVALUE('PDA_Competencias_Pesos'[Peso_E])
+VAR wP = SELECTEDVALUE('PDA_Competencias_Pesos'[Peso_P])
+VAR wN = SELECTEDVALUE('PDA_Competencias_Pesos'[Peso_N])
+VAR wA = SELECTEDVALUE('PDA_Competencias_Pesos'[Peso_A])
+VAR SomaAbsPesos = ABS(wR)+ABS(wE)+ABS(wP)+ABS(wN)+ABS(wA)
+VAR Score = 50 + DIVIDE(
+    wR*(R-50) + wE*(E-50) + wP*(P-50) + wN*(N-50) + wA*(A-50),
+    SomaAbsPesos, 0
+)
+RETURN
+    MAX(0, MIN(100, Score))
+",
+    displayFolder: "12 Competência");

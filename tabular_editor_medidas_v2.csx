@@ -176,6 +176,21 @@ t.AddMeasure("Qtd Possivelmente Estressados",
   "CALCULATE(COUNTROWS('PDA_Base'), 'PDA_Base'[EE] > 60)",
   displayFolder: "06 EE");
 
+t.AddMeasure("EE com Interpretacao", @"
+VAR Valor = AVERAGE('PDA_Base'[EE])
+VAR Faixa =
+    SWITCH(
+        TRUE(),
+        Valor > 80, ""Possível indicador de inconsistência"",
+        Valor > 60, ""Possivelmente estressado"",
+        Valor >= 40, ""Motivado / equilibrado"",
+        Valor >= 20, ""Possivelmente desmotivado"",
+        ""Possível Indicador de inconsistência""
+    )
+RETURN
+FORMAT(Valor, ""0"") & ""% — "" & Faixa",
+  displayFolder: "06 EE");
+
 // ============================================================
 // 07 — Perfis com Eixos Extremados
 // Sem filtro fixo
@@ -240,6 +255,21 @@ t.AddMeasure("Qtd Mudou Estilo TD",
 
 t.AddMeasure("Qtd por Estilo TD",
   "COUNTROWS('PDA_Base')",
+  displayFolder: "08 TD");
+
+t.AddMeasure("TD com Interpretacao", @"
+VAR Valor = AVERAGE('PDA_Base'[TD_natural])
+VAR Faixa =
+    SWITCH(
+        TRUE(),
+        Valor > 80, ""Estilo Arriscado"",
+        Valor > 50, ""Estilo arriscado compensado pela cautela"",
+        Valor = 50, ""Tensão confirmada"",
+        Valor >= 20, ""Estilo cauteloso compensado pelo risco"",
+        ""Estilo Cauteloso""
+    )
+RETURN
+FORMAT(Valor, ""0"") & ""% — "" & Faixa",
   displayFolder: "08 TD");
 
 // ============================================================

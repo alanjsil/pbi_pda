@@ -1,9 +1,11 @@
 # Pastas
-dist/
-.vscode/
-coverage/
-node_modules/
+docs/Extras
+docs/img/
+docs/Referencia/
+logos/
 pbi-tools.1.2.0/
+
+#Temp
 ~$*
 
 # Arquivos
@@ -12,3 +14,4 @@ pbi-tools.1.2.0/
 .venv
 .DS_Store
 Thumbs.db
+medidas_dax.txt

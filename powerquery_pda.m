@@ -1,15 +1,34 @@
 // ============================================================
+// PASSO 0 — Parâmetro
+// Criar parâmetro pra evitar de tar atualizando local de arquivos
+// ============================================================
+"C:\Users\alan_\OneDrive\Projetos VS Code\Verena\PDA_Competências.xlsx" meta [IsParameterQuery=true, List={"C:\Users\User\OneDrive\Projetos VS Code\Verena\PDA_Competências.xlsx", "C:\Users\alan_\OneDrive\Projetos VS Code\Verena\PDA_Competências.xlsx"}, DefaultValue=..., Type="Text", IsParameterQueryRequired=true]
+
+// ============================================================
 // PASSO 1 — Tabela base (PDA_Base)
 // Carregue o CSV, renomeie a query para "PDA_Base"
 // Delimitador: ponto e vírgula (;)
 // ============================================================
 let
-  Fonte = Csv.Document(
-    File.Contents("C:\PDA\pda_exemplo.csv"),
-    [Delimiter=";", Columns=33, Encoding=65001, QuoteStyle=QuoteStyle.None]
-  ),
+    Fonte = Excel.Workbook(File.Contents(Local), null, true),
 
-  Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    Planilha = Table.SelectRows(Fonte, each [Name] = "PDA"),
+
+    Colunas = Table.ColumnNames(Planilha{0}[Data]),
+
+    Expandido = Table.ExpandTableColumn(
+        Planilha,
+        "Data",
+        Colunas,
+        Colunas
+    ),
+
+    Cabecalhos = Table.PromoteHeaders(Expandido, [PromoteAllScalars=true]),
+
+    Limpeza = Table.RemoveColumns(
+        Cabecalhos,
+        {"PDA_1", "Sheet", "false", "PDA"}
+    ),
 
   // Tipos — agora com TD_adaptado, IP_adaptado e TF
   Tipos = Table.TransformColumnTypes(Cabecalhos, {

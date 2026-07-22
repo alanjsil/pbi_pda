@@ -1,6 +1,8 @@
 // ============================================================
 // Aqui são colunas calculadas adicionadas em PDA_BASE
+// adicionar na tela de edição não no pq
 // ============================================================
+
 Perfil_Referencia_Mais_Proximo =
 VAR R = 'PDA_Base'[R_natural]
 VAR E = 'PDA_Base'[E_natural]

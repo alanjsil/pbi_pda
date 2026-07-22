@@ -205,24 +205,4 @@
       "editor.defaultFormatter": "redhat.vscode-xml",
     },
   },
-
-  "extensions": {
-    "recommendations": [
-      "eamodio.gitlens",
-      "vitest.explorer",
-      "sst-dev.opencode",
-      "continue.continue",
-      "mhutchie.git-graph",
-      "ms-vscode.powershell",
-      "gruntfuggly.todo-tree",
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode",
-      "github.vscode-github-actions",
-      "ReneSaarsoo.sql-formatter-vsc",
-      "christian-kohler.path-intellisense",
-      "ms-ceintl.vscode-language-pack-pt-br",
-      "ms-vscode.vscode-chat-customizations-evaluations",
-      "ms-python.python",
-    ],
-  },
 }
